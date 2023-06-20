@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 export default class form extends Component {
 constructor(){
-    super()
+    super()        
     this.state = {
         Username:" ",
         Password:" ",
