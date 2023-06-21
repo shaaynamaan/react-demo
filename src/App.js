@@ -4,12 +4,12 @@ import Welcome from './Components/welcome'
 import './App.css'
 import {useState} from 'react'
 import Form from './form'
-
+import Student from ' '
 function App() {
-  const [data,setData]=useState(0)
+  const [data,setData]=useState("Form")
   function updateData()
   {
-    setData(data+1)
+    setData(data+1)   
   }
 
   return (
